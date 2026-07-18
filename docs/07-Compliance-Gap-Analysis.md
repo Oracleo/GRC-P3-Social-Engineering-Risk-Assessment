@@ -13,8 +13,7 @@ This document maps the identified phishing incident and control gaps to specific
 ## NIST Cybersecurity Framework (CSF) Mappings
 | NIST Function | NIST Category | Gap Evidence |
 |:---|:---|:---|
-| **IDENTIFY (ID)** | ID.RA-2 (Cybersecurity Risk Assessment) | IT did not previously assess the risk of an email spoofing attack against the organization's email domain. |
-| **IDENTIFY (ID)** | ID.RA-2 (Cybersecurity Risk Assessment) | The spoofed domain `postfiji.com.fj` was used to impersonate a trusted external entity. The organization's email risk assessment did not previously account for external domain spoofing vectors exploiting legitimate-looking email addresses. | 🟡 Control Gap |
+| **IDENTIFY (ID)** | ID.RA-2 (Cybersecurity Risk Assessment) | IT did not previously assess the risk of an email spoofing attack against the organization's email domain. The spoofed domain `postfiji.com.fj` was used to impersonate a trusted external entity, exposing a gap in how the risk assessment accounted for external domain spoofing vectors. |
 | **PROTECT (PR)** | PR.AT-1 (Awareness and Training) | Users were not aware of this specific 419 scam and spoofing technique. |
 | **DETECT (DE)** | DE.CM-3 (Personnel Activity Monitoring) | End-user report was the detection vector, rather than an automated email gateway alert. |
 | **RESPOND (RS)** | RS.AN-1 (Notifications from Detection Systems are Investigated) | Incident report filed and investigated based on manual email header analysis. |
