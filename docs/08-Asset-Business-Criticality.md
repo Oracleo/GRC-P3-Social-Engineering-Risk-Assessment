@@ -18,4 +18,4 @@ In a professional GRC environment, a reported phishing email is not just a "spam
 | **Compromised Third-Party Relay (`rosreestr.ru`)** | Bypasses reputation-based filtering, allowing advanced phishing attacks. | Violates NIST ID.RA-2 (Third-party risk assessment). | Harder to detect future attacks, leading to eventual data breach. |
 
 ## 8.3 Conclusion on Priority Scoring
-The lack of DMARC is escalated to a **Critical P1** because it is a foundational control. If an adversary can spoof your domain at will, every single employee is at risk of a targeted BEC attack. The priority matrix in `03-Risk-Register.md` is driven by the high financial value of wire transfers occurring over this channel.
+The lack of DMARC is escalated to a **Critical P1** because it is a foundational control. If an adversary can spoof your domain at will, every single employee is at risk of a targeted BEC attack. The priority matrix in `05-Risk-Register.md` is driven by the high financial value of wire transfers occurring over this channel.
