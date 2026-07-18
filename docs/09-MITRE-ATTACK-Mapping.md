@@ -8,7 +8,7 @@ Mapping the phishing email findings to MITRE ATT&CK allows us to visualize the a
 |:---|:---|:---|:---|:---|
 | **Phishing Email (Advance Fee Fraud)** | **TA0001 (Initial Access)** | **T1566** | Phishing | The attacker impersonates a Diplomatic Agent using a spoofed domain to bypass reputation filters and create a legitimate-looking email. |
 | **Absent Email Authentication (SPF FAIL, no DMARC)** | **TA0001 (Initial Access)** | **T1566** | Phishing | The lack of authentication controls *enabled* the initial access vector. The attacker exploited the trust inherent in email protocols. |
-| **Gmail Reply-To Mismatch** | **TA0042 (Resource Development)** | **T1585.002** | Acquire Infrastructure: Email Account | The attacker registers a free Gmail address (`mywoodforestbiz.7@gmail.com`) to collect victim replies and exfiltrate data, establishing a command & control channel completely outside the victim's corporate network. |
+| **Gmail Reply-To Mismatch** | **TA0042 (Resource Development)** | **T1585.002** | Establish Accounts: Email Account | The attacker registers a free Gmail address (`mywoodforestbiz.7@gmail.com`) to collect victim replies and exfiltrate data, establishing a command & control channel completely outside the victim's corporate network. |
 
 ## Attack Chain Scenario (The "Real World" Threat)
 
