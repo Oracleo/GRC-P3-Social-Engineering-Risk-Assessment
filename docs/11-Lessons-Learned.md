@@ -1,8 +1,8 @@
-# 11. Lessons Learned – Post-Incident Review
+# 11. Lessons Learned
 
 This document captures the key takeaways from the phishing incident and provides strategic recommendations to prevent recurrence. In a mature GRC environment, this document is shared with the Security Architecture, IT Operations, and HR/Training teams.
 
-## 11.1 What Went Well (Strengths)
+## 11.1 What Went Well (Success)
 
 1. **User Reporting:** The phishing email was **reported by an end-user**, demonstrating that our current security awareness program is at least partially effective and establishing a baseline for a "speak-up" culture.
 2. **Manual Analytical Rigor:** The investigation correctly identified a **VirusTotal False Negative**. The analyst manually correlated SPF failure, DKIM absence, and the Gmail Reply-To mismatch rather than trusting automated tools. This proves the value of human oversight in the SOC/GRC workflow.
@@ -23,5 +23,5 @@ This document captures the key takeaways from the phishing incident and provides
 | **Revise Security Awareness Training** | P2 | HR / InfoSec | 60 Days | 100% of staff must pass the new module detecting "Reply-To" mismatches and 419 scams. |
 | **Automated Quarantine of Multisignal Alerts** | P2 | SOC Lead | 45 Days | Gateway automatically quarantines emails matching 2+ weak signals (e.g., SPF Fail + New Domain + Reply-To Mismatch). |
 
-## 11.4 Final Conclusion
+## 11.4 GRC Conclusion
 To move from a reactive to a proactive security posture, we must stop trusting the "gate" (reputation filters) and start trusting the "house" (our internal control architecture). We must implement DMARC immediately, update our Security Awareness Training, and adopt a Zero-Trust philosophy for all inbound email traffic.
