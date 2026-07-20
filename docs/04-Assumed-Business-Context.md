@@ -1,4 +1,4 @@
-# 4. Assumed Business Context – The "What If" Scenario
+# 4. Assumed Business Context
 
 In GRC, we must assume a business context to accurately weigh the severity of an incident. This document outlines the **fictional but realistic escalation** of the phishing email, should it have succeeded.
 
