@@ -1,4 +1,4 @@
-# 8. Asset Business Criticality & Context Analysis
+# 8. Asset Business Criticality
 
 In a professional GRC environment, a reported phishing email is not just a "spam complaint." It is an attack on a critical business asset. For the purposes of this risk engagement, we contextualize the **Organizational Email System** as follows:
 
