@@ -1,4 +1,4 @@
-# 9. MITRE ATT&CK Threat Actor Mapping
+# 9. MITRE ATT&CK Mapping
 
 Mapping the phishing email findings to MITRE ATT&CK allows us to visualize the adversary's full kill chain and apply appropriate mitigations.
 
