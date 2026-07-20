@@ -1,8 +1,8 @@
 # 2. Executive Dashboard
 
-**Incident ID:** SOC-2023-07-PHISH
-**Date of Report:** July 29, 2023
-**Analyst:** Niladri Biswas
+*  **Incident ID:** SOC-2023-07-PHISH
+*  **Date of Report:** 11 November 2025
+*  **Analyst:** Niladri Biswas
 
 ## Incident Severity & Status
 
